@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="PatternClient.cs" />
+    <Compile Include="patterns\behavioral\template_method\component\ConcreteClass01.cs" />
+    <Compile Include="patterns\behavioral\template_method\template_method\AbstractClass.cs" />
+    <Compile Include="patterns\behavioral\template_method\TempleteMethodClient.cs" />
     <Compile Include="patterns\behavioral\visitor\ClientVisitor.cs" />
     <Compile Include="patterns\behavioral\visitor\component\ConcreteComponentB.cs" />
     <Compile Include="patterns\behavioral\visitor\component\ConcreteComponentA.cs" />

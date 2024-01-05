@@ -1,4 +1,5 @@
-﻿using design_patterns.patterns.behavioral.visitor;
+﻿using design_patterns.patterns.behavioral.template_method;
+using design_patterns.patterns.behavioral.visitor;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,9 @@ namespace design_patterns
         static void Main(string[] args)
         {
             new ClientVisitor().run();
+
+            new TempleteMethodClient().run();
+
         }
     }
 }
